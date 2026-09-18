@@ -1,6 +1,6 @@
 import time
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import HTMLMock, HTMLResponse
+from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 import numpy as np
 from sklearn.ensemble import IsolationForest
